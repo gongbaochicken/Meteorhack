@@ -10,8 +10,10 @@ class Home extends Component {
         <div id="homejumbotron">
           <div className="homeContent">
             <h1>Happy Hacking!</h1>
-            <button className="btn btn-success signinBtn">Sign In</button>
-            <button className="btn btn-danger signupBtn">Sign Up</button>
+            <div className="row btnSection">
+              <button className="col-3 btn btn-success signinBtn">Sign In</button>
+              <button className="col-3 btn btn-danger signupBtn">Sign Up</button>
+            </div>
           </div>
         </div>
       </div>
